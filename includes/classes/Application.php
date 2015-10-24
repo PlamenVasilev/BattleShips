@@ -92,6 +92,7 @@ class Application extends Battleships{
 		
 		$continue = true;
 		$show_ships = false;
+		$shoot = false;
 		do{
 			system('clear');
 			$grid = $this->display_grid($show_ships);
